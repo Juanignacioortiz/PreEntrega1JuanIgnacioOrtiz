@@ -86,7 +86,7 @@ function iniciarPagina() {
         let anchoCm = parseFloat(prompt('Ingresa el ancho en centímetros del producto:'));
         let minutosUtilizados = parseFloat(prompt('Ingresa la cantidad de minutos utilizados en la máquina:'));
         let cantidadProductos = parseInt(prompt('Ingresa la cantidad de productos vendidos:'));
-        let precioVenta = parseFloat(prompt('Ingresa el precio de venta del producto:'));
+        let precioVenta = parseFloat(prompt('Ingresa el valor total de la venta:'));
 
         const valorPorCm2 = 0.017; 
         const costoPorMinuto = 0.16; 
